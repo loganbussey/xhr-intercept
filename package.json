@@ -1,0 +1,33 @@
+{
+  "name": "@loganbussey/xhr-intercept",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/loganbussey/xhr-intercept",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/loganbussey/xhr-intercept.git"
+  },
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "prepare": "babel src --out-dir dist --presets=@babel/preset-env",
+    "lint": "eslint src/index.js"
+  },
+  "authors": [
+    "Luke Bussey <luke@loganbussey.com>"
+  ],
+  "keywords": [
+    "segment",
+    "proxy"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
